@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url('../IMG/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner{
+    height: 26px;
+    width: 100%;
+    background-color: #5ba503;
+    display: flex;
+    color: #f0fcff;
+}
+
+.hanoi{
+    margin-left: 350px;
+}
+
+.hcm{
+    margin-left: 100px;
+}
+
+.j span{
+    color: #5ba503;
+}
+
+.j a{
+    text-decoration: none;
+    color: grey;
+}
+
+.j a:hover{
+    color: #5ba503;
+}
+
+.j{
+    float: left;
+}
+
+.PHONGTHUY{
+    height: 30px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.PHONGTHUY p{
+    font-size: 30px;
+    color: #52403c;
+    font-weight: bolder;
+}
+.PHONGTHUY hr{
+    height: 2px;
+    width: 100px;
+    background-color: #52403c;
+}
+
+.BODY{
+    width: 1110px;
+    height: auto;
+    display: flex;
+}
+
+.body-left{
+    width: 800px;
+    height: auto;
+}
+
+.grid{
+    width: 100%;
+    height: auto
+}
+
+.content{
+    width: 1110px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 270px 270px 270px 270px 270px 270px;
+    grid-gap: 50px;
+}
+
+.item{
+    width: 230px;
+    height: 270px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item-up{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.item-down{
+    width: 230px;
+    height: 70px;
+    text-align: center;
+}
+
+.item-up img{
+    width: 200px;
+    height: 200px;
+}
+
+.item-up img:hover{
+    width: 210px;
+    height: 210px;
+}
+
+.page{
+    width: 800px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.page-main{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.page-item{
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    margin-right: 7px;
+    padding: 3px 0 0 13px;
+}
+
+
+
+.body-right{
+    width: 300px;
+    height: auto;
+    background-color: black;
+}
+
+.caycanhuachuong{
+    height: 430px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    border: 1px solid grey;
+
+}
+.uachuong{
+    height: 70px;
+    width: 260px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #5ba503;
+}
+
+.caykimtien, .caykimngan, .caysenda, .cayhanhphuc,.caytrauba, .caybang, .cayluoiho{
+    height: 20px;
+    width: 200px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.kimtien-left{
+    width: 30px;
+    height: auto;
+}
+
+#aa a{
+    text-decoration: none;
+    color: #5e4d4a;
+}
+
+#aa a:hover{
+    color: #5ba503;
+}
+
+.kimtien-right{
+    width: auto;
+    height: 50px;
+}
+
+.wedcaycanh{
+    margin-top: 20px;
+    height: 220px;
+    font-size: 15px;
+    width: 300px;
+    margin-left: 18px;
+}
+
+.head{
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #5ba503;
+    color: white;
+}
+.t1{
+    display: flex;
+    height: 30px;
+    width: 100%;
+}
+
+.t1-left{
+    width: 20px;
+    height: auto;
+}
+
+.sanphammoi{
+    width: 260px;
+    height: 500px;
+    margin-left: 17px;
+    border: 1px solid grey;
+    border-top: none;
+    margin-bottom: 15px;
+}
+
+.sanphammoi-head{
+    width: 260px;
+    height:50px;
+    background-color: #5ba503;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 20px;
+  
+}
+
+.sanphammoi-menu{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sanphammoi-left{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.sanphammoi-left img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.sanphammoi-right{
+    height: 100%;
+    width: 100%;
+}
+
+.sanphammoi-right a{
+    text-decoration: none;
+    color: #5e4d4a;
+}
+
+.sanphammoi-right a:hover{
+    color: #5ba503;
+}
+
+.sanphamuathich{
+    height: 670px;
+    width: 260px;
+    margin-left: 17px;
+    border: 1px solid grey;
+}
+
+.sanphamuathich-right a{
+    text-decoration: none;
+    color: #5d4e4a;
+}
+
+.sanphamuathich-right a:hover{
+    color: #5ba503;
+}
+.sanphamuathich-head{
+    height: 50px;
+    width: 260px;
+    border-top: none;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    background-color: #5ba503;
+}
+
+.sanphamuathich-menu{
+    display: flex;
+    margin-top: 20px;
+}
+
+.sanphamuathich-left{
+    height: 55px;
+    width: 55px;
+    margin-left: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.sanphamuathich-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 800px;
+    width: 1110px;
+    height: 350px;
+    background-color: #e9e4d8;
+    color: grey;
+}
+
+.cot3 a{
+    text-decoration: none;
+}
+
+.cot4 a{
+    text-decoration: none;
+}
+
+.footer ul{
+    float: left;
+}
+
+.footer ul{
+    margin: 10px 13px 13px 13px;
+}
+
+.mau{
+    color: #5ba503;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.y{
+    color: grey;
+}
+
+.y:hover{
+    color:#5ba503;;
+}
+
+.vd1{
+    width: 700px;
+    height: 370px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imgg{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imgg img{
+    margin: 30px;
+}
+
